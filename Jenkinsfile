@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        KUBECONFIG = "C:\\Users\\Sybil System\\Downloads\\bootcamp_assessment-main\\intermediate-level\\kubeconfig.yaml"
+        KUBECONFIG = "\"C:\\Users\\Sybil System\\Downloads\\bootcamp_assessment-main\\intermediate-level\\kubeconfig.yaml\""
     }
 
     stages {
